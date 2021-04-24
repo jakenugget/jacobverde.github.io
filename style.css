@@ -1,0 +1,77 @@
+{
+    box-sizing: border-box;
+}
+body {
+    max-width: 750px;
+    font-size: 16px;
+    justify-content: flex-start;
+    margin: 50px auto;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+header,
+footer {
+    margin: 1.5rem;
+    padding: 1em;
+    border-radius: 15px;
+}
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+header,
+footer {
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 1.5em;
+}
+header img {
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+nav lessons {
+    margin-left: 3em;
+    display: flex;
+}
+nav ul {
+    list-style-type: disc;
+}
+#updatedDate {
+    color: blue;
+ }
+#byui_link {
+    color: white;
+}
+@media only screen and (max-width: 680px) {
+body {
+    margin: 50px 20px;
+}
+h1 {
+    display: block;
+}
+.textheader {
+    display: block;
+    width: 100%;
+}
+#profile {
+    display: block;
+    position: initial;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 50px 20px;
+    }
+}
