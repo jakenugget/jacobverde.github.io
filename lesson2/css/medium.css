@@ -3,11 +3,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .hicks {
+    .contrast {
         grid-column: 1/2;
     }
 
-    .contrast {
+    .alignment {
         grid-column: 2/3;
     }
 }
