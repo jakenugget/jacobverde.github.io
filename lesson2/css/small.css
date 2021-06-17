@@ -2,17 +2,17 @@
 
 header {
     text-align: center;
-    background-color: green;
+    background-color: #050a30;
     padding: 15px;
 }
 
 h1 {
     font-family: 'Mate SC', serif;
-    color: #eee;
+    color: #fff;
 }
 
 h2 {
-    color: #eee;
+    color: #fff;
     font-family: 'Mate SC', serif;
 }
 
@@ -24,8 +24,8 @@ main {
 
 footer {
     text-align: center;
-    color: #eee;
-    background-color: green;
+    color: #fff;
+    background-color: #050a30;
     padding: .5rem;
     font-family: 'Mate SC', serif;
 }
@@ -52,7 +52,7 @@ img {
 }
 
 div h3 {
-    color: #eee;
+    color: #fff;
     background-color: blue;
     font-family: 'Mate SC', serif;
     text-align: center;
