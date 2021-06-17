@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: #687980;
+    background-color: #000c66;
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 
@@ -43,7 +43,7 @@ nav ul li.active a {
 }
 
 header {
-    background-color:  #90d1ea;
+    background-color:  #050a30;
 }
 
 header h1, header h2 {
@@ -54,11 +54,11 @@ header h1, header h2 {
 
 header h1 {
     padding-top: 1rem;
-    font-family: 'Arvo', serif;
+    font-family: 'Mate SC', serif;
 }
 header h2 {
     padding-bottom: 1rem;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
     font-weight: 700;
 }
 
@@ -68,7 +68,7 @@ main {
     background-color: #fff;
     margin:0;
     padding: 1rem;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 main h2 {font-weight: 600;}
@@ -80,8 +80,8 @@ main p {font-weight: 300;}
 
 footer {
     color: #fff;
-    background-color: #687980;
+    background-color: #050a30;
     text-align: center;
     padding: 1rem;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
