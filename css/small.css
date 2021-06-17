@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: #7ec8e3;
     text-align: center;
     color: white;
     border: 1px solid;
@@ -50,7 +50,7 @@ main ul {
 }
 
 footer {
-    background-color: green;
+    background-color: #7ec8e3;
     text-align: center;
     color: white;
     padding: 15px;
