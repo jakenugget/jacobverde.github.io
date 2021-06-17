@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:ital,wght@1,100&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');*/
 
 .wrapper {
     min-height: 100%;
@@ -12,24 +12,24 @@ header, footer {
 
 
 .display-pic {
-    width: 108px;
-    margin: 5px;
+    width: 208px;
+    margin: -5px;
     border-radius: 9px;
     height: auto;
 }
 
 h1 {
-    font-family: Noto Sans JP , sans-serif;
+    font-family: 'Mate SC', serif;
     font-size: 1.5rem;
 }
 
 h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Mate SC', serif;
     font-size: 1rem;
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Mate SC', serif;
     font-size: 16px;
 }
 
