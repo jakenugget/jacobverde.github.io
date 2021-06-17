@@ -13,7 +13,7 @@ header, footer {
 
 .display-pic {
     width: 108px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 9px;
     height: auto;
 }
@@ -34,9 +34,9 @@ body {
 }
 
 header {
-    background-color: #008B8B;
+    background-color: green;
     text-align: center;
-    color: green;
+    color: white;
     border: 1px solid;
 }
 
@@ -50,9 +50,9 @@ main ul {
 }
 
 footer {
-    background-color: #008B8B;
+    background-color: green;
     text-align: center;
-    color: green;
+    color: white;
     padding: 15px;
     border: 1px solid;
 }
