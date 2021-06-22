@@ -17,13 +17,14 @@ body {
 }
 
 #headerWrapper div h1 {
-    font-family: 'Arvo', serif;
+    font-family: 'Mate SC', serif;
+
     margin: 0;
     font-size: 1.3rem;
 }
 
 #headerWrapper div h2 {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
     margin: 0;
     font-weight: 300;
     font-size: 1rem;
@@ -31,7 +32,7 @@ body {
 
 #headerWrapper {
     color: #161d6f;
-    background-color: #d3eaef;
+    background-color: #050A30;
 }
 
 nav {
@@ -67,7 +68,7 @@ header {
     text-decoration: none;
     font-size: .9rem;
     text-align: left;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 #navWrapper nav ul li {
@@ -80,24 +81,24 @@ header {
 
 #navWrapper nav ul li.active a {
     color: #ffffff;
-    background-color: #1c6fae;
+    background-color: #000c66;
     border: 0;
 }
 
 #navWrapper nav ul li a:hover {
-    background-color: #eaffd0;
+    background-color: #7ec8e3;
     color: #1c6fae;
 }
 
 button {
     border: 0;
     background-color: transparent;
-    color: #1c6fae;
+    color: #050A30;
     margin: .5rem;
 }
 
 button:hover {
-    background-color: #eaffd0;
+    background-color: #7ec8e3;
     color: #1c6fae;
 }
 
@@ -105,7 +106,7 @@ button:hover {
 main {
     margin: 0;
     padding: 0 2%;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
     color: #6a7781;
 }
 
@@ -148,7 +149,7 @@ main div, article {
     background-color: #d3eaef;
     text-align: center;
     padding: 1rem 0;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 /*----- General Rules -----*/
@@ -174,7 +175,7 @@ main div, article {
 .showmessage p {
     margin: 0;
     color: 	#000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Mate SC', serif;
     text-align: center;
 }
 
