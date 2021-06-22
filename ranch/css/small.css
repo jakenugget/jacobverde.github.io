@@ -13,6 +13,7 @@
 
  header {
      background-color:#050A30;
+     color: #fff;
      padding: 1rem 2%;
  }
 
@@ -72,4 +73,5 @@
      text-align: center;
      padding: 1rem 2%;
      background-color: #050A30;
+     color: #fff;
  }
