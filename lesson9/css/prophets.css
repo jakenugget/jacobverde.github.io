@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-family: 'Suez One', serif;
+    font-family: 'Mate SC', serif;
     color: #51aaaf;
 }
 
@@ -18,11 +18,11 @@ section {
 }
 
 section h2 {
-    font-family: 'Suez One', serif;
+    font-family: 'Mate SC', serif;
 }
 
 section p {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 section img {
@@ -33,7 +33,7 @@ section img {
 }
 
 footer {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 @media only screen and (min-width: 35rem) {
