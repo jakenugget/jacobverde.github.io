@@ -406,7 +406,7 @@ section.towns-info section:nth-child(odd) {
 /*----- Wireframe Page Rules -----*/
 
 div.wireframe {
-    text-align: center;
+    text-align: left;
     margin: 3rem 2%;
 }
 
