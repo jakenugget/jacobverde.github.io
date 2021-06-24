@@ -2,7 +2,7 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-/*---------- Date Section ----------*/
+
 
 let date = new Date();
 let day = date.getDay();
@@ -81,7 +81,6 @@ let wholeDate = dayName + ", " + dateDay + " " + monthName + " " + year;
 
 document.getElementById("date").innerHTML = wholeDate;
 
-/*---------- Message Section ----------*/
 
 let messageSection = document.querySelector("#message");
 
@@ -91,7 +90,6 @@ if (day == 5) {
     messageSection.classList.add("hidemessage");
 }
 
-/*---------- Last Visit Section ----------*/
 
 let lastVisitDay = new Date(localStorage.getItem("lastVisit"));
 const diffInTime = date - lastVisitDay;
