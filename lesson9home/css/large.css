@@ -35,16 +35,16 @@
     }
 
     .gallery figure:hover {
-        box-shadow: 3px 3px 15px #000080;
+        box-shadow: 3px 3px 15px #687980;
     }
 
-    /*------ Storm Center ------*/
+    
 
     form label.sbs {
         padding: .4rem 0;
     }
 
-    /*--------- Home Page Rules ---------*/
+    
 
     section.towns-info section {
         display: block;
