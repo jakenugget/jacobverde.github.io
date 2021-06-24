@@ -1,18 +1,12 @@
 @media only screen and (min-width: 35rem) {
 
 
-    /*----------- BODY --------------*/
-    
-    
-    
-    /*----------- HEADER --------------*/
         .logo {width: 85px}
         #headerWrapper header {justify-content: flex-start;}
         #headerWrapper div h1 {font-size: 2rem;}
         #headerWrapper div h2 {font-size: 1.6rem;}
     
     
-    /*----------- NAVIGATION --------------*/
         #navWrapper nav button {display: none;}
         #navWrapper nav ul {margin-left: 2%; margin-bottom: 0;}
         #navWrapper nav ul li {float: left;}
@@ -21,7 +15,7 @@
         #navWrapper nav ul li:first-child {border-top: none;}
         .hide {display: block;}
     
-    /*----------- MAIN --------------*/
+
         main h2 {
             margin-top: 1rem;
         }
@@ -31,7 +25,6 @@
             left: 1rem;
         }
     
-    /*----- Forecast Section -----*/
 
         .forecast {
             display: block;
@@ -61,7 +54,7 @@
             width: 70px;
         }
 
-        /*----- Article Section -----*/
+
 
         .article {word-wrap: break-word;}
 
@@ -72,7 +65,7 @@
             margin-bottom: .2rem;
         }
 
-        /*----- Contact Section -----*/
+
 
         .contact {
             grid-template-columns: 1fr 1fr 2fr;
@@ -97,8 +90,7 @@
         }
 
         .contactdiv {clear: both;}
-    
-    /*----- Image Gallery Rules -----*/
+  
         
         .gallery {
             display: grid;
@@ -125,7 +117,6 @@
             grid-column: 2/3;
         }
 
-        /*----- Storm Center Page Rules ------*/
 
         form label.top input, form label.top select, label.top textarea{
             max-width: 27rem;
@@ -133,5 +124,16 @@
         form fieldset {
             padding: 1rem 2% 2rem 3rem;
         }
+
+  
+        section.towns-info section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        section.towns-info section img, section.towns-info section div {
+            width: 50%;
+        }
     }
-     /* end of media query */
