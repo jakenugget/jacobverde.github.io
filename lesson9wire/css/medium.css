@@ -1,18 +1,11 @@
 @media only screen and (min-width: 35rem) {
 
-
-    /*----------- BODY --------------*/
-    
-    
-    
-    /*----------- HEADER --------------*/
         .logo {width: 85px}
         #headerWrapper header {justify-content: flex-start;}
         #headerWrapper div h1 {font-size: 2rem;}
         #headerWrapper div h2 {font-size: 1.6rem;}
     
-    
-    /*----------- NAVIGATION --------------*/
+
         #navWrapper nav button {display: none;}
         #navWrapper nav ul {margin-left: 2%; margin-bottom: 0;}
         #navWrapper nav ul li {float: left;}
@@ -21,7 +14,6 @@
         #navWrapper nav ul li:first-child {border-top: none;}
         .hide {display: block;}
     
-    /*----------- MAIN --------------*/
         main h2 {
             margin-top: 1rem;
         }
@@ -31,7 +23,6 @@
             left: 1rem;
         }
     
-    /*----- Forecast Section -----*/
 
         .forecast {
             display: block;
