@@ -5,12 +5,12 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        // console.table(jsonObject);
+        
 
         const towns = jsonObject['towns'];
 
         const needTowns = towns.filter(town => town.name == 'Preston' || town.name == 'Soda Springs' || town.name == 'Fish Haven');
-        //console.table(needTowns);
+      
         
         needTowns.forEach(town => {
             let card = document.createElement('section');
