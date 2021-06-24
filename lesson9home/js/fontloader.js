@@ -1,1 +1,1 @@
-WebFont.load({ google: { families: ['Mukta', 'Arvo']}});
+WebFont.load({ google: { families: ['Mate SC', 'serif']}});
