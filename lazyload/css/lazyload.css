@@ -1,38 +1,24 @@
-// Getting all images with data-src attribute
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #00537a;
+  font-size: 16px;
+}
 
-const loadImages = (image) => {
-    //get 'src' attr and set its value to 'data-src' value
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {
-        image.removeAttribute('data-src');
-    };
-};
+main {
+  padding: 0 2%;
+}
+picture {
+    display: block;
+    margin: 30px auto;
+}
 
-// optional parameters being set for the IntersectionObserver
-const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 50px 0px"
-};
+picture img[data-src] {
+  filter: blur(0.2em);
+}
 
-if ('IntersectionObserver' in window) {
-    // if it's supported
-    const imgObserver = new IntersectionObserver(items => {
-        items.forEach(item => {
-            if (item.isIntersecting) {
-                loadImages(item.target);
-                imgObserver.unobserve(item.target);
-            }
-        });
-    }, imgOptions);
-
-    //load images if necessary
-    imagesToLoad.forEach(img => {
-        imgObserver.observe(img);
-    });
-
-} else { //load  all images if not supported
-    imagesToLoad.forEach(img => {
-        loadImages(img);
-    });
+picture img {
+  filter: blur(0em);
+  border: 1px solid black;
+  padding: 5px;
 }
