@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Preston page for weather site page in WDD 230">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Small Town Weather</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script type="text/javascript" src="js/responsiveMenu.js" defer></script>
+
+</head>
+<body>
+    <div id="message">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img class="logo" src="images/weatherlogo.png" alt="Weather logo">
+            <div>
+                <h1>Small town Weather</h1>
+                <h2>Weather for the small town folk</h2>
+            </div>
+        </header>
+    </div>
+
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="../lesson9home/index.html">Home</a></li>
+                <li><a href="../lesson6/preston.html">Preston</a></li>
+                <li><a href="#">Soda Spring</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../lesson8storm/stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <h1>Weather Gallery</h1>
+
+        <div class="gallery">
+            <figure class="figure1">
+                <img src="images/gray.jpg" data-src="images/forest1.jpg" alt="Dark Forest" width="300" height="200">
+                <figcaption>Dark Forest</figcaption>
+            </figure>
+            <figure class="figure2">
+                <img src="images/gray.jpg" data-src="images/forest2.jpg" alt="Bridge in Forest" width="300" height="200">
+                <figcaption>Bridge in Forest</figcaption>
+            </figure>
+            <figure class="figure3">
+                <img src="images/gray.jpg" data-src="images/forest3.jpg" alt="Green Trees" width="300" height="200">
+                <figcaption>Green Trees</figcaption>
+            </figure>
+            <figure class="figure4">
+                <img src="images/gray.jpg" data-src="images/forest4.jpg" alt="looking To the Heavens" width="300" height="200">
+                <figcaption>Looking To the Heavens</figcaption>
+            </figure>
+            <figure class="figure5">
+                <img src="images/gray.jpg" data-src="images/forest5.jpg" alt="Dirt Road" width="300" height="200">
+                <figcaption>Dirt Road</figcaption>
+            </figure>
+            <figure class="figure6">
+                <img src="images/gray.jpg" data-src="images/forest6.jpg" alt="Fog" width="300" height="200">
+                <figcaption>Fog</figcaption>
+            </figure>
+            <figure class="figure7">
+                <img src="images/gray.jpg" data-src="images/forest7.jpg" alt="Tree Trunk" width="300" height="200">
+                <figcaption>Tree Trunk</figcaption>
+            </figure>
+            <figure class="figure8">
+                <img src="images/gray.jpg" data-src="images/forest8.jpg" alt="Path Less Traveled" width="300" height="200">
+                <figcaption>Path Less Traveled</figcaption>
+            </figure>
+            <figure class="figure9">
+                <img src="images/gray.jpg" data-src="images/forest9.jpg" alt="Moss" width="300" height="200">
+                <figcaption>Moss</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <div id="footerWrapper">
+        <footer>
+
+            &copy; Jacob Verde &bull; <span id="date"></span><br>
+            <span id="visit"></span>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script type="text/javascript" src="js/fontloader.js"></script>
+    <script type="text/javascript" src="js/windchill.js" defer></script>
+    <script type="text/javascript" src="js/lazyimage.js"></script>
+</body>
+</html>
