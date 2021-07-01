@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Preston page for weather site page in WDD 230">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Small Town Weather</title>
+    <title>Preston | Small Town Weather</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
-
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-
     <script type="text/javascript" src="js/responsiveMenu.js" defer></script>
+    <script type="text/javascript" src="js/weatherapi.js" defer></script>
 
 </head>
 <body>
@@ -28,8 +27,8 @@
         <header class="clearfix">
             <img class="logo" src="images/weatherlogo.png" alt="Weather logo">
             <div>
-                <h1>Small Town Weather</h1>
-                <h2>Weather For The Small Town Folk</h2>
+                <h1>Small town Weather</h1>
+                <h2>Weather for the small town folk</h2>
             </div>
         </header>
     </div>
@@ -38,8 +37,8 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="hide">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="../lesson6/preston.html">Preston</a></li>
+                <li><a href="../lesson9home/index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Spring</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="../lesson8storm/stormcenter.html">Storm Center</a></li>
@@ -49,23 +48,39 @@
     </div>
 
     <main>
+        <h1>Preston Town</h1>
 
-        <div class="hero-image">
+        <div class="weathersummary">
             <picture>
                 <source media="(max-width: 425px)" srcset="images/small.jpg">
                 <source media="(max-width: 768px)" srcset="images/medium.jpg">
                 <source media="(max-width: 1440px)" srcset="images/large.jpg">
-                <img src="images/Large.jpg" alt="Sunny Day">
+                <img src="images/large.jpg" alt="Sunny Day">
             </picture>
+            <section class="status">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="weather"></span></p>
+                <p>High: <span id="temperature"></span>&deg;F</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="windspeed"></span>mph</p>
+            </section>
         </div>
 
-        <h2>Rainstorm this weekend during the game</h2>
+        <h2 class="forecast-mainheader">5-Day Forecast</h2>
+        <section class="forecast">
+        </section>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo beatae natus sed repellat vel reiciendis tempore, nobis minus voluptas adipisci porro. Ab iure tempora, porro inventore et quos doloremque!
-        Repellendus est eveniet ullam, vero esse at voluptatum, suscipit ratione accusamus alias vel dolorum aperiam cumque odit voluptas incidunt voluptatibus iusto quia ducimus amet commodi corrupti magni corporis porro? Aliquid!
-        Commodi sunt quas aliquam, ratione delectus expedita quaerat voluptate, facere doloremque voluptas reprehenderit, aut perferendis exercitationem a consequatur? Dolores quo ea placeat molestias repellat cupiditate ipsa natus cum quas architecto?</p>
-
-        <section class="towns-info"></section>
+        <article class="article">
+            <h2>High School Football Game this Weekeend</h2>
+            <img src="images/football.png" alt="football">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aspernatur corporis quas, ea deserunt totam delectus quibusdam rerum, consequatur culpa eaque eligendi magnam odit quos autem quae alias vitae facilis!
+            Ratione voluptas ullam earum amet nisi recusandae blanditiis quos laudantium voluptatem pariatur expedita autem, fugiat eius optio molestias dicta assumenda rem! Rem, illo quod? Cumque eveniet explicabo perferendis eos ad?
+            Temporibus maxime eveniet autem, fuga dolorem sit eius, doloremque dolorum ullam accusamus illum? Sit aliquid totam at illum, accusantium, id sapiente nesciunt recusandae dolorum laborum et corporis laudantium autem nemo.
+            Possimus voluptates laboriosam amet tenetur modi vero explicabo, corrupti quae sint consectetur eligendi accusamus et ipsum iste reiciendis molestias, maiores expedita sapiente? Atque nulla rem dignissimos placeat earum veritatis eligendi.
+            Ea dolor, quisquam maiores nihil consectetur suscipit repellat ducimus. Asperiores quas dolorum error distinctio corporis! Impedit omnis totam sapiente quis? Quam minus repellendus ducimus saepe animi dolor cum quidem voluptate?
+            Ratione quis, fugit itaque asperiores cum molestias iure officiis iste? Corrupti amet quidem, facilis expedita doloremque eum sunt, nesciunt similique incidunt recusandae, sed iure quae optio doloribus harum asperiores quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis repudiandae nihil vel, illo aspernatur aperiam delectus ratione earum animi ex molestias corrupti eius sed, quis dolore iure error ipsum. Ex?</p>
+        </article>
 
         <div class="contactdiv">
             <h2>Contact Us</h2>
@@ -102,6 +117,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script type="text/javascript" src="js/fontloader.js"></script>
-    <script type="text/javascript" src="js/towns.js" defer></script>
+    <script type="text/javascript" src="js/windchill.js" defer></script>
 </body>
 </html>
