@@ -1,7 +1,6 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
@@ -9,7 +8,6 @@ body {
 }
 
 
-/*----- Header Rules ------*/
 #headerWrapper header {
     display: flex;
     align-items: center;
@@ -17,21 +15,21 @@ body {
 }
 
 #headerWrapper div h1 {
-    font-family: 'Arvo', serif;
+    font-family: 'Mate SC', serif;
     margin: 0;
     font-size: 1.3rem;
 }
 
 #headerWrapper div h2 {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
     margin: 0;
     font-weight: 300;
     font-size: 1rem;
 }
 
 #headerWrapper {
-    color: #161d6f;
-    background-color: #d3eaef;
+    color: #fff;
+    background-color: #050A30;
 }
 
 nav {
@@ -48,7 +46,6 @@ header {
     margin-right: 10px;
 }
 
-/*----- Navigation Rules ------*/
 
 #navWrapper nav {
     padding: 0;
@@ -62,31 +59,31 @@ header {
 
 #navWrapper nav ul li a {
     display: block;
-    color: #1c6fae;
+    color: #687980;
     padding: .5rem 0 .5rem .5rem;
     text-decoration: none;
     font-size: .9rem;
     text-align: left;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 #navWrapper nav ul li {
-    border-bottom: .3px solid #c7cdd1;
+    border-bottom: .3px solid #000c66;
 }
 
 #navWrapper nav ul li:first-child {
-    border-top: .5px solid #a5afb5;
+    border-top: .5px solid #000c66;
 }
 
 #navWrapper nav ul li.active a {
     color: #ffffff;
-    background-color: #1c6fae;
+    background-color: #000c66;
     border: 0;
 }
 
 #navWrapper nav ul li a:hover {
-    background-color: #eaffd0;
-    color: #1c6fae;
+    background-color: blue;
+    color: #fff;
 }
 
 button {
@@ -97,15 +94,15 @@ button {
 }
 
 button:hover {
-    background-color: #eaffd0;
-    color: #1c6fae;
+    background-color: #050A30;
+    color: #fff;
 }
 
-/*----- Main Rules -----*/
+
 main {
     margin: 0;
     padding: 0 2%;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
     color: #161d6f;
 }
 
@@ -126,7 +123,7 @@ main div, article {
 
 .status {
     color: #000080;
-    background-color: #d3eaef;
+    background-color: #687980;
     position: absolute;
     top: .5rem;
     left: .5rem;
@@ -142,16 +139,15 @@ main div, article {
 .weathersummary img {width: 100%;}
 .weathersummary p {margin: .3rem;}
 
-/*----- Footer Rule ------*/
+
 #footerWrapper {
-    color: #161d6f;
-    background-color: #d3eaef;
+    color: #fff;
+    background-color: #050A30;
     text-align: center;
     padding: 1rem 0;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
-/*----- General Rules -----*/
 
 .hide {
     display: none;
@@ -163,41 +159,38 @@ main div, article {
     clear: both;
 }
 
-/*----- Prompt Message Rules -----*/
 
 .showmessage {
     padding: .5rem;
     display: block;
-    background-color: #dab466;
+    background-color: #050A30;
+    color: #fff;
 }
 
 .showmessage p {
     margin: 0;
     color: 	#000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Mate SC', serif;
     text-align: center;
 }
 
 .hidemessage {display: none;}
 
-/*----- Forecast Section -----*/
 
 .forecast-mainheader {display: none;}
 .forecast {display: none;}
 
-/*----- Article Section -----*/
 
 .article img {
     width: 100%;
 }
 
-/*----- Contact Section -----*/
 
 .contactdiv {
-    background-color: #ffffe5;
-    border: 1px solid #888888;
-    border-radius: 5px;
-    padding: .5rem;
+    background-color: #687980;
+    border: 10px solid #050A30;
+    border-radius: 15px;
+    padding: .55rem;
 }
 
 .contactdiv h2{
@@ -244,7 +237,6 @@ div.map {
     margin-top: 0;
 }
 
-/*----- Image Gallery Rules -----*/
 
 .gallery figure {
     text-align: center;
@@ -266,7 +258,6 @@ div.map {
     padding: .5rem;
 }
 
-/*----- Storm Center Rules ------*/
 
 form {
     margin: 0 2%;
@@ -303,22 +294,22 @@ form label.top input, form label.top select label.top textarea {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: 1px solid #000080;
+    border: 5px solid #7ec8e3;
     border-radius: 4px;
     padding: .75rem;
-    color: #000080;
+    color: #fff;
     width: 100%;
     max-width: 20rem;
-    background-color: #d3eaef;
+    background-color: #050A30;
 }
 
 textarea {
-    display: block;
-    width: 100%;
-    max-width: 20rem;
-    min-height: 5rem;
-    background-color: #d3eaef;
-    color: #000080;
+    	display: block;    
+	width: 100%;    
+	max-width: 20rem;    
+	min-height: 5rem;    
+	background-color: #050A30;    
+	color: #fff;
 }
 
 form label.sbs {
@@ -354,12 +345,12 @@ form label.top input:required:valid {
 }
 
 form input.btn:hover {
-    background-color: #eaffd0;
+    background-color: #7ec8e3;
     color: #1c6fae;
     border: 1px solid #1c6fae;
 }
 
-/*----- Thank You Page Rules ------*/
+
 
 div.thanks {
     background-color: #1c6fae;
@@ -374,13 +365,12 @@ p.special-paragraph {
     font-size: 1.5rem;
 }
 
-/*----- Home Page Rules -----*/
 
 div.hero-image img {width: 100%;}
 
 section.towns-info section{
-    color: #161d6f;
-    background-color: #d3eaef;
+    color: #fff;
+    background-color: #050A30;
     text-align: center;
     padding: 1rem;
     width: 100%;
