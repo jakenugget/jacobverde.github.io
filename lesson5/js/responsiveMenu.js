@@ -3,7 +3,6 @@ function toggleMenu() {
 }
 
 
-
 let date = new Date();
 let day = date.getDay();
 let dateDay = date.getDate();
@@ -82,6 +81,7 @@ let wholeDate = dayName + ", " + dateDay + " " + monthName + " " + year;
 document.getElementById("date").innerHTML = wholeDate;
 
 
+
 let messageSection = document.querySelector("#message");
 
 if (day == 5) {
@@ -89,3 +89,20 @@ if (day == 5) {
 } else {
     messageSection.classList.add("hidemessage");
 }
+
+
+
+let lastVisitDay = new Date(localStorage.getItem("lastVisit"));
+const diffInTime = date - lastVisitDay;
+const oneDay = 1000 * 60 * 60 * 24;
+const diffInDays = Math.ceil(diffInTime / oneDay);
+
+if (diffInDays < 2) {
+    if (diffInDays == 1) {
+        document.querySelector("#visit").textContent = "Last visit: 1 Day Ago";
+    }
+} else {
+    document.querySelector("#visit").textContent = `Last visit: ${diffInDays} Days Ago`;
+}
+
+localStorage.setItem("lastVisit", date.toISOString());
