@@ -2,7 +2,7 @@ const lat = 40.16;
 const lon = 110.40;
 const appId = '4c6ee178fbcaa341e556052daf49c4ef';
 
-const weatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&exclude={part}&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
+const weatherURL = `//api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&exclude=minutely,hourly,current,alerts&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
 
 fetch(weatherURL)
   .then((response) => response.json())
@@ -16,7 +16,7 @@ fetch(weatherURL)
   });
 
 
-const forecastURL = `https://api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&exclude={part}&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
+const forecastURL = `//api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&exclude=current,minutely,hourly&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
 
 const todayDate = new Date();
 
