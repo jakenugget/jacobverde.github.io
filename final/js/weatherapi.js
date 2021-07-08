@@ -9,10 +9,10 @@ fetch(weatherURL)
   .then((jsObject) => {
     //console.log(jsObject);
 
-    document.querySelector('#weather').textContent = jsObject.current.weather.description.toUpperCase();
-    document.querySelector('#temperature').textContent = jsObject.current.temp.toFixed(0);
-    document.querySelector('#humidity').textContent = jsObject.current.humidity;
-    document.querySelector('#windspeed').textContent = jsObject.current.wind_speed.toFixed(0);
+    document.getElementById('weather').textContent = jsObject.current.weather.description.toUpperCase();
+    document.getElementById('temperature').textContent = jsObject.current.temp.toFixed(0);
+    document.getElementById('humidity').textContent = jsObject.current.humidity;
+    document.getElementById('windspeed').textContent = jsObject.current.wind_speed.toFixed(0);
   });
 
 
