@@ -2,7 +2,7 @@ const lat = 40.16;
 const lon = 110.40;
 const appId = '4c6ee178fbcaa341e556052daf49c4ef';
 
-const weatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&exclude=minutely,hourly,daily,alerts&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
+const weatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=40.16&lon=110.40&appid=4c6ee178fbcaa341e556052daf49c4ef&units=imperial`;
 
 fetch(weatherURL)
   .then((response) => response.json())
