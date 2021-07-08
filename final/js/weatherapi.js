@@ -12,7 +12,7 @@ fetch(weatherURL)
     document.querySelector('#weather').textContent = jsObject.current.weather.description.toUpperCase();
     document.querySelector('#temperature').textContent = jsObject.current.temp.toFixed(0);
     document.querySelector('#humidity').textContent = jsObject.current.humidity;
-    document.querySelector('#windspeed').textContent = jsObject.wind.speed.toFixed(0);
+    document.querySelector('#windspeed').textContent = jsObject.current.wind_speed.toFixed(0);
   });
 
 
