@@ -1,6 +1,6 @@
 const lat = 40.16;
 const lon = 110.40;
-const appId = '4c6ee178fbcaa341e556052daf49c4ef';
+const appId = '7f500379c65a4583d47537b7d1a732eb';
 
 const weatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${appId}&units=imperial`;
 
