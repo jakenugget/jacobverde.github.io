@@ -195,6 +195,7 @@ main div, article {
 
 .contactdiv h2{
     margin-top: 0;
+    text-align: center;
 }
 
 .contact {
@@ -215,7 +216,7 @@ div.phone {
 
 div.email {
     margin: 0;
-    grid-column: 2/3;
+    grid-column: 3/3;
 }
 
 div.map {
