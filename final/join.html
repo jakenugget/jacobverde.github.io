@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Preston page for weather site page in WDD 230">
+    <meta name="description" content="Duchesne Chamber of Commerce for WDD 230">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Center | Small Town Weather</title>
+    <title>Join | Duchesne Chamber of Commerce</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
@@ -19,15 +19,12 @@
 
 </head>
 <body>
-    <div id="message">
-        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-    </div>
     <div id="headerWrapper">
         <header class="clearfix">
-            <img class="logo" src="images/weatherlogo.png" alt="Weather logo">
+            <img class="logo" src="images/logo.png" alt="City logo">
             <div>
-                <h1>Small town Weather</h1>
-                <h2>Weather for the small town folk</h2>
+                <h1>Duchesne Chamber of Commerce</h1>
+                <h2>Go Eagles!</h2>
             </div>
         </header>
     </div>
@@ -37,17 +34,16 @@
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
-                <li><a href="sodaspring.html">Soda Spring</a></li>
-                <li><a href="fishhaven.html">Fish Haven</a></li>
-                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="duchesne.html">Duchesne</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <main>
-        <h1>Small Town Weather Reporting</h1>
+        <h1>Join the Chamber</h1>
 
         <form method="GET" action="thanks.html">
             <fieldset>
@@ -63,10 +59,10 @@
                 <label class="top">Storm Date <input type="date" name="date"></label>
                 <label class="top">Storm Type <input list="storms" name="type"></label>
                 <datalist id="storms">
-                    <option value="Flash flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunderstorm">
+                    <option value="Non-Profit ($100)">
+                    <option value="Bronze ($200)">
+                    <option value="Silver ($400)">
+                    <option value="Gold ($1000)">
                     <option value="Tornado">
                 </datalist>
                 <label class="sbs1">Storm Severity (1-10) <input type="range" name="severity" min="1" max="10" value="5" step="1"></label>
