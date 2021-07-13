@@ -2,16 +2,18 @@
   "directory": [
     {
       "name": "Carrot Top Cakery",
+      "lastname": "Smith",
       "birthdate": "23 December 1805",
       "death": "27 June 1844",
       "length": 14,
       "order": 1,
       "birthplace": "Vermont",
       "numofchildren": 11,
-      "imageurl": "images/Maddy.jfif"
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
     },
     {
       "name": "Als Foodtown",
+      "lastname": "Young",
       "birthdate": "01 June 1801",
       "death": "29 August 1877",
       "length": 30,
@@ -22,6 +24,7 @@
     },
     {
       "name": "Verde Trucking",
+      "lastname": "Taylor",
       "birthdate": "01 November 1808",
       "death": "25 July 1887",
       "length": 6,
@@ -32,6 +35,7 @@
     },
     {
       "name": "Nourish",
+      "lastname": "Woodruff",
       "birthdate": "01 March 1807",
       "death": "02 September 1898",
       "length": 9,
@@ -42,6 +46,7 @@
     },
     {
       "name": "Cowans Cafe",
+      "lastname": "Snow",
       "birthdate": "03 April 1814",
       "death": "19 October 1901",
       "length": 3,
@@ -52,6 +57,7 @@
     },
     {
       "name": "Sinclair",
+      "lastname": "Smith",
       "birthdate": "12 November 1838",
       "death": "19 November 1918",
       "length": 17,
@@ -62,6 +68,7 @@
     },
     {
       "name": "Eagle Fitness",
+      "lastname": "Grant",
       "birthdate": "22 November 1856",
       "death": "14 May 1945",
       "length": 23,
@@ -69,7 +76,6 @@
       "birthplace": "Utah",
       "numofchildren": 12,
       "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
-    },
-
+    }
   ]
 }
