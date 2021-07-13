@@ -2,7 +2,7 @@
   "directory": [
     {
       "name": "Carrot Top Cakery",
-      "birthdate": "23 December 1805",
+      "birthdate": "carrottopcakery.com",
       "death": "27 June 1844",
       "length": 14,
       "order": 1,
@@ -12,7 +12,7 @@
     },
     {
       "name": "Als Foodtown",
-      "birthdate": "01 June 1801",
+      "birthdate": "alsfoodtown.com",
       "death": "29 August 1877",
       "length": 30,
       "order": 2,
@@ -22,7 +22,7 @@
     },
     {
       "name": "Verde Trucking",
-      "birthdate": "01 November 1808",
+      "birthdate": "None",
       "death": "25 July 1887",
       "length": 6,
       "order": 3,
@@ -32,7 +32,7 @@
     },
     {
       "name": "Nourish",
-      "birthdate": "01 March 1807",
+      "birthdate": "nourishduchesne.com",
       "death": "02 September 1898",
       "length": 9,
       "order": 4,
@@ -42,7 +42,7 @@
     },
     {
       "name": "Cowans Cafe",
-      "birthdate": "03 April 1814",
+      "birthdate": "https://www.facebook.com/Cowans-cafe-168862449805414/",
       "death": "19 October 1901",
       "length": 3,
       "order": 5,
@@ -52,7 +52,7 @@
     },
     {
       "name": "Sinclair",
-      "birthdate": "12 November 1838",
+      "birthdate": "None",
       "death": "19 November 1918",
       "length": 17,
       "order": 6,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Eagle Fitness",
-      "birthdate": "22 November 1856",
+      "birthdate": "https://www.facebook.com/eaglefitness.crosstraining/?sk=page_map",
       "death": "14 May 1945",
       "length": 23,
       "order": 7,
