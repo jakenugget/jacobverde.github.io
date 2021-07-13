@@ -15,7 +15,7 @@ fetch(requestURL)
             let placeOfBirth = document.createElement('p');
             let image = document.createElement('img');
 
-            h2.textContent = directory[i].name;
+            h2.textContent = directory[i].name + ' ' + directory[i].lastname;
             dateOfBirth.textContent = "Website: " + directory[i].birthdate;
             placeOfBirth.textContent = "Phone Number: " + directory[i].birthplace;
             image.setAttribute('src', directory[i].imageurl);
