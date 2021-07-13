@@ -1,0 +1,51 @@
+body {
+    font-size: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mate SC', serif;
+    color: #050A30;
+}
+
+section {
+    background-color: #050A30;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 2%;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-family: 'Mate SC', serif;
+}
+
+section p {
+    font-family: 'Mate SC', serif;
+}
+
+section img {
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #333;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    font-family: 'Mate SC', serif;
+}
+
+@media only screen and (min-width: 35rem) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 56rem) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
