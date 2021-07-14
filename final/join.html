@@ -45,13 +45,25 @@
     <main>
         <h1>Join the Chamber</h1>
 
-        <form method="GET" action="thanks.html">
+        <form method="GET" action="thankyou.html">
             <fieldset>
                 <legend>Contact Info</legend>
-                <label class="top">Full Name* <input type="text" name="name" required pattern="[A-Za-z ]{5,}" minlength="5"></label>
+                <label class="top">First Name* <input type="text" name="name" required pattern="[A-Za-z ]{5,}" minlength="3"></label>
+                <label class="top">Last Name* <input type="text" name="name" required pattern="[A-Za-z ]{5,}" minlength="3"></label>
                 <label class="top">Email <input type="email" placeholder="1234@smalltownweather.com" name="email"></label>
                 <label class="top">Phone Number* <input type="tel" required name="phone"></label>
                 <label class="top">Zip Code* <input type="number" required name="zip"></label>
+                <label class="top">Zip Code* <input type="number" required name="zip"></label>
+                <label class="top">Zip Code* <input type="number" required name="zip"></label>
+                <label class="top">Zip Code* <input type="number" required name="zip"></label>
+                <datalist id="membership">
+                    <option value="Non-Profit ($100)">
+                    <option value="Bronze ($200)">
+                    <option value="Silver ($400)">
+                    <option value="Gold ($1000)">
+                <label class="top">Additional information or comments <textarea name="additional"></textarea></label>
+                <input type="Submit" value="Join Us" class="btn">
+                </datalist>
             </fieldset>
 
             <fieldset>
