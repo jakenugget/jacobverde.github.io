@@ -345,11 +345,11 @@ form input.btn {
 }
 
 form label.top input:required {
-    border-bottom: 6px solid #FF4500;
+    border: 6px solid #FF4500;
 }
 
 form label.top input:required:valid {
-    border-bottom: 6px solid #1c6fae;
+    border: 6px solid #1c6fae;
 }
 
 form input.btn:hover {
