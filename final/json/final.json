@@ -8,7 +8,7 @@
       "order": 1,
       "birthplace": "435-733-1281",
       "numofchildren": 11,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      "imageurl": "images/carrot.png"
     },
     {
       "name": "Als Foodtown",
@@ -18,7 +18,7 @@
       "order": 2,
       "birthplace": "Vermont",
       "numofchildren": 56,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      "imageurl": "images/als.png"
     },
     {
       "name": "Verde Trucking",
@@ -28,7 +28,7 @@
       "order": 3,
       "birthplace": "England",
       "numofchildren": 34,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      "imageurl": "images/truck.png"
     },
     {
       "name": "Nourish",
@@ -38,7 +38,7 @@
       "order": 4,
       "birthplace": "435-738-2220",
       "numofchildren": 34,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      "imageurl": "images/nourish.png"
     },
     {
       "name": "Cowans Cafe",
@@ -48,7 +48,7 @@
       "order": 5,
       "birthplace": "Ohio",
       "numofchildren": 42,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      "imageurl": "images/cowans.jfif"
     },
     {
       "name": "Sinclair",
@@ -58,17 +58,17 @@
       "order": 6,
       "birthplace": "Missouri",
       "numofchildren": 48,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      "imageurl": "images/sinclair.jfif"
     },
     {
-      "name": "Eagle Fitness",
+      "name": "Burger King",
       "birthdate": "None",
       "death": "14 May 1945",
       "length": 23,
       "order": 7,
       "birthplace": "Utah",
       "numofchildren": 12,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+      "imageurl": "bk.png"
     }
   ]
 }
