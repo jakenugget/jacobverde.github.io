@@ -1,3 +1,4 @@
+document.querySelector('#last-modified').textContent = document.lastModified;
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
