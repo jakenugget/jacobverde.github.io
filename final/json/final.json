@@ -3,61 +3,49 @@
     {
       "name": "Carrot Top Cakery",
       "birthdate": "carrottopcakery.com",
-      "death": "27 June 1844",
       "length": 14,
       "order": 1,
       "birthplace": "435-733-1281",
-      "numofchildren": 11,
       "imageurl": "images/carrot.png"
     },
     {
       "name": "Als Foodtown",
       "birthdate": "alsfoodtown.com",
-      "death": "29 August 1877",
       "length": 30,
       "order": 2,
       "birthplace": "435-738-2394",
-      "numofchildren": 56,
       "imageurl": "images/als.png"
     },
     {
       "name": "Verde Trucking",
       "birthdate": "None",
-      "death": "25 July 1887",
       "length": 6,
       "order": 3,
       "birthplace": "England",
-      "numofchildren": 34,
       "imageurl": "images/truck.png"
     },
     {
       "name": "Nourish",
       "birthdate": "nourishduchesne.com",
-      "death": "02 September 1898",
       "length": 9,
       "order": 4,
       "birthplace": "435-738-2220",
-      "numofchildren": 34,
       "imageurl": "images/nourish.png"
     },
     {
       "name": "Cowans Cafe",
       "birthdate": "None",
-      "death": "19 October 1901",
       "length": 3,
       "order": 5,
       "birthplace": "435-738-5609",
-      "numofchildren": 42,
       "imageurl": "images/cowans.jfif"
     },
     {
       "name": "Sinclair",
       "birthdate": "sinclairoil.com",
-      "death": "19 November 1918",
       "length": 17,
       "order": 6,
       "birthplace": "435-738-5757",
-      "numofchildren": 48,
       "imageurl": "images/sinclair.jfif"
     },
     {
