@@ -401,3 +401,6 @@ section.towns-info section img {
 section.towns-info section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
+footer a {
+    color: #ffffff;
+}
