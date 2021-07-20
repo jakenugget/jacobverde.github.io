@@ -131,14 +131,4 @@
         }
 
   
-        section.towns-info section {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-
-        section.towns-info section img, section.towns-info section div {
-            width: 50%;
-        }
     }
