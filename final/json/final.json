@@ -2,60 +2,59 @@
   "directory": [
     {
       "name": "Carrot Top Cakery",
-      "birthdate": "carrottopcakery.com",
+      "web": "carrottopcakery.com",
       "length": 14,
       "order": 1,
-      "birthplace": "435-733-1281",
+      "number": "435-733-1281",
       "imageurl": "images/carrot.png"
     },
     {
       "name": "Als Foodtown",
-      "birthdate": "alsfoodtown.com",
+      "web": "alsfoodtown.com",
       "length": 30,
       "order": 2,
-      "birthplace": "435-738-2394",
+      "number": "435-738-2394",
       "imageurl": "images/als.png"
     },
     {
       "name": "Verde Trucking",
-      "birthdate": "None",
+      "web": "None",
       "length": 6,
       "order": 3,
-      "birthplace": "435-632-8063",
+      "number": "435-632-8063",
       "imageurl": "images/truck.png"
     },
     {
       "name": "Nourish",
-      "birthdate": "nourishduchesne.com",
+      "web": "nourishduchesne.com",
       "length": 9,
       "order": 4,
-      "birthplace": "435-738-2220",
+      "number": "435-738-2220",
       "imageurl": "images/nourish.png"
     },
     {
       "name": "Cowans Cafe",
-      "birthdate": "None",
+      "web": "None",
       "length": 3,
       "order": 5,
-      "birthplace": "435-738-5609",
+      "number": "435-738-5609",
       "imageurl": "images/cowans.jfif"
     },
     {
       "name": "Sinclair",
-      "birthdate": "sinclairoil.com",
+      "web": "sinclairoil.com",
       "length": 17,
       "order": 6,
-      "birthplace": "435-738-5757",
+      "number": "435-738-5757",
       "imageurl": "images/sinclair.jfif"
     },
     {
       "name": "Burger King",
-      "birthdate": "bk.com",
+      "web": "bk.com",
       "death": "14 May 1945",
       "length": 23,
       "order": 7,
-      "birthplace": "866-394-2493",
-      "numofchildren": 12,
+      "number": "866-394-2493",
       "imageurl": "images/bk.png"
     }
   ]
