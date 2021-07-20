@@ -376,31 +376,7 @@ p.special-paragraph {
 
 div.hero-image img {width: 100%;}
 
-section.towns-info section{
-    color: #fff;
-    background-color: #050A30;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-}
 
-p.motto {
-    color: #228B22;
-    font-style: italic;
-    margin-bottom: 2rem;
-}
-
-section.towns-info section img {
-    border-radius: 5px;
-    box-shadow: 0 0 8px #333;
-    width: 100%;
-}
-
-section.towns-info section:nth-child(odd) {
-	flex-direction: row-reverse;
-}
 footer a {
     color: #ffffff;
 }
