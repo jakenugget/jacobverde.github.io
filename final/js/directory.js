@@ -11,20 +11,20 @@ fetch(requestURL)
         for (let i = 0; i < directory.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let dateOfBirth = document.createElement('p');
-            let placeOfBirth = document.createElement('p');
+            let website = document.createElement('p');
+            let phone = document.createElement('p');
             let image = document.createElement('img');
 
             h2.textContent = directory[i].name;
-            dateOfBirth.textContent = "Website: " + directory[i].birthdate;
-            placeOfBirth.textContent = "Phone Number: " + directory[i].birthplace;
+            website.textContent = "Website: " + directory[i].web;
+            phone.textContent = "Phone Number: " + directory[i].number;
             image.setAttribute('src', directory[i].imageurl);
             image.setAttribute('alt', directory[i].name + ' - ' + directory[i].order);
 
 
             card.appendChild(h2);
-            card.appendChild(dateOfBirth);
-            card.appendChild(placeOfBirth);
+            card.appendChild(website);
+            card.appendChild(phone);
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
